@@ -15,7 +15,7 @@ gulp
  
 SCSS
 
-custom.scss into "includes/scss" is main file importing all the other (Bootstrap, normalize and start with some reset rules). Utilities.scss is for the mixins and utilities, and variables.scss is for ... variables.
+custom.scss into "includes/scss" is main file importing all the other (Bootstrap, normalize and starts with some reset rules). Utilities.scss is for the mixins and utilities, and variables.scss is for ... variables.
 These files will become custom.min.css inside "includes/css" folder, loaded by WP.
  
 ********************************
