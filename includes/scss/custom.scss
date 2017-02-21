@@ -1,0 +1,79 @@
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "../../bower_components/normalize-scss/sass/_normalize.scss";
+
+@import 'variables.scss';
+@import 'utilities.scss';
+
+/* GENERALI */
+
+a {
+  @include transition(all .3s ease);
+
+
+  &:hover, &:focus, &:active {
+    text-decoration: none;
+  }
+}
+
+ol, ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+*:focus {
+  outline: none !important;
+  outline: 0 !important;
+}
+
+a {
+  &:focus, &:active {
+    outline: none !important;
+    outline: 0 !important;
+  }
+}
+
+button {
+  outline: none !important;
+  outline: 0 !important;
+}
+
+input {
+  &:focus, &:active {
+    outline: none !important;
+    outline: 0 !important;
+  }
+  outline: none !important;
+  outline: 0 !important;
+}
+
+textarea {
+  outline: none !important;
+  outline: 0 !important;
+  &:focus input[type="reset"]::-moz-focus-inner {
+    outline: none !important;
+    outline: 0 !important;
+  }
+}
+
+input {
+  &[type="button"]::-moz-focus-inner, &[type="submit"]::-moz-focus-inner {
+    outline: none !important;
+    outline: 0 !important;
+  }
+}
+
+select::-moz-focus-inner, input[type="file"] > input[type="button"]::-moz-focus-inner {
+  outline: none !important;
+  outline: 0 !important;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+/* FINE GENERALI */
+
