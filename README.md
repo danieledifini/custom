@@ -1,4 +1,5 @@
 HOW TO START
+
 Clone this repository into your themes folder
 
 npm install
