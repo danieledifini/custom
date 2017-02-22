@@ -40,7 +40,7 @@ Gulpfile also will try to compress all the image files inside "images" folder an
 Browsersync will reload the page at every changes made to scss js and php files.
 
 
-This is just my starting theme, everything could surely make in a better way so feel free to suggest.
+This is just my starting theme, everything could surely be made in a better way so feel free to suggest.
 
 
 Style.css won't be loaded and used. It's there cause I'm lazy.
